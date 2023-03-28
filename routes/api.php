@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('{username}/rsvps', [\App\Http\Controllers\RequestController::class, 'rsvp'])->name('rsvp.add');
+Route::post('{username}/wishes', [\App\Http\Controllers\RequestController::class, 'wishes'])->name('wishes.add');

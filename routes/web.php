@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('sarah-furqon', function () {
+    $wishes = \App\Models\Wish::where('username', 'sarah-furqon')->get();
+    return view('sarah-furqon', ['wishes' => $wishes]);
 });
