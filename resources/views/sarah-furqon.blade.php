@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Senin, 1 Mei 2023. Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Menghadiri Acara Pernikahan Kami.">
+    <meta property="og:description" content="Senin, 1 Mei 2023. Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Menghadiri Acara Pernikahan Kami.">
 
     <title>The Wedding of Sarah & Furqon</title>
 
@@ -139,7 +141,7 @@
                     <p>Jam</p>
                 </div>
             </div>
-            <p class="font-medium text-[21px] text-[#0D1131] mt-6">Senin, 1 Mei 2023 | 08.00 - selesai <br>
+            <p class="font-medium text-[21px] text-[#0D1131] mt-6">Senin, 1 Mei 2023 | 09.00 - selesai <br>
                 ASTON Banyuwangi Hotel & <br>
                 Conference Center</p>
             <p class="text-lg text-[#A00A2B] px-12 mt-2">Jl. Brawijaya, Lingkungan Cungking, Mojopanggung, Kec. Giri, Kabupaten Banyuwangi, Jawa Timur 68425</p>
@@ -153,7 +155,7 @@
             <img src="{{asset('images/bunga-rsvp.svg')}}" class="absolute -top-6 left-0 right-0 mx-auto">
             <p class="text-[35px] mx-auto font-['Petit_Formal_Script']">RSVP</p>
             <p class="text-lg font-medium text-[#0D1131] mt-4">Konfirmasi Kehadiran</p>
-            <input type="text" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 text-[#C0C0C0] text-lg" placeholder="&nbsp;Nama" name="name_rsvp_add">
+            <input type="text" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 placeholder:text-[#C0C0C0] text-[#303030] text-lg" placeholder="&nbsp;Nama" name="name_rsvp_add">
             <div class="w-80 flex mx-auto mt-3">
                 <div class="w-40 -ml-4">
                     <label class="radio-button">
@@ -177,8 +179,8 @@
             <img src="{{asset('images/bunga-ucapan.svg')}}" class="absolute -top-6 left-0 right-0 mx-auto">
             <p class="text-[35px] mx-auto font-['Petit_Formal_Script']">Friends Wishes</p>
             <p class="text-lg font-medium text-[#0D1131] mt-4">Ucapan & Doa</p>
-            <input type="text" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 text-[#C0C0C0] text-lg" placeholder="&nbsp;&nbsp;Nama" name="name_wish_add">
-            <textarea rows="5" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 resize-none text-[#C0C0C0] text-lg" placeholder="&nbsp;&nbsp;Pesan untuk mempelai" name="message_wish_add"></textarea>
+            <input type="text" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 placeholder:text-[#C0C0C0] text-[#303030] text-lg" placeholder="&nbsp;&nbsp;Nama" name="name_wish_add">
+            <textarea rows="5" class="bg-[#EDEDED] rounded-xl w-80 py-3 px-2 mx-auto mt-3 resize-none placeholder:text-[#C0C0C0] text-[#303030] no-underline text-lg" placeholder="&nbsp;&nbsp;Pesan untuk mempelai" name="message_wish_add"></textarea>
             <button id="button-wish" class="bg-[#701651] w-80 py-1 text-white mx-auto mt-6 rounded-2xl text-lg" onclick="postWish()">Submit</button>
             <div class="mt-8 bg-[#D9D9D9] w-80 h-80 mx-auto rounded-2xl overflow-y-scroll p-4 pb-0">
                 @foreach($wishes as $wish)
@@ -275,7 +277,7 @@
 </div>
 
 <script>
-    const startDate = new Date("2023-05-01T08:00:00+07:00")
+    const startDate = new Date("2023-05-01T09:00:00+07:00")
 
     const weeks = document.querySelector('#weeks');
     const days = document.querySelector('#days');
