@@ -148,7 +148,7 @@
             <div class="mx-auto mt-4 relative w-80 h-40">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.8289696271086!2d114.3530662!3d-8.2199486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241c61dc85899%3A0xf0267439cd75b194!2sASTON%20Banyuwangi%20Hotel%20%26%20Conference%20Center!5e0!3m2!1sen!2sid!4v1679231341711!5m2!1sen!2sid" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute top-0 left-0 w-full h-full rounded-xl" style="cursor:none!important"></iframe>
             </div>
-            <a href="#" class="w-80 bg-[#701651] mx-auto mt-4 py-1 text-white rounded-2xl">Ingatkan via Google Calendar</a>
+            <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NGZkdGVrb2x2dDBjZzFnZmZsczFoNGk1am4gZmFpcnV6cGFyZGFuaWFAbQ&amp;tmsrc=fairuzpardania%40gmail.com" class="w-80 bg-[#701651] mx-auto mt-4 py-1 text-white rounded-2xl">Ingatkan via Google Calendar</a>
             <a target="_blank" href="https://instagram.com/rahshabrina" class="w-80 bg-[#701651] mx-auto mt-4 py-1 text-white rounded-2xl">Tonton Live Instagram di sini</a>
         </div>
         <div id="rsvp" class=" bg-white flex flex-col text-center mt-8 py-16 text-[#701651] relative">
