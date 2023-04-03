@@ -141,7 +141,7 @@
                     <p>Jam</p>
                 </div>
             </div>
-            <p class="font-medium text-[21px] text-[#0D1131] mt-6">Senin, 1 Mei 2023 | 09.00 - selesai <br>
+            <p class="font-medium text-[21px] text-[#0D1131] mt-6">Senin, 1 Mei 2023 | 09.00 - 11.30 WIB <br>
                 ASTON Banyuwangi Hotel & <br>
                 Conference Center</p>
             <p class="text-lg text-[#A00A2B] px-12 mt-2">Jl. Brawijaya, Lingkungan Cungking, Mojopanggung, Kec. Giri, Kabupaten Banyuwangi, Jawa Timur 68425</p>
